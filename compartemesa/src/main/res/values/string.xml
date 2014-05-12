@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Comparte Mesa</string>
+
+    <string name="home">Inicio</string>
+    <string name="tables">Mis mesas</string>
+    <string name="search">Buscar compañeros</string>
+    <string name="config">Configuración</string>
+
+    <string name="drawer_open">Manú abierto</string>
+    <string name="drawer_close">Manú cerrado</string>
+
+    <string-array name="navigation_drawer_elements">
+        <item>Inicio</item>
+        <item>Mis mesas</item>
+        <item>Buscar compañeros</item>
+        <item>Configuración</item>
+    </string-array>
+
+</resources>
