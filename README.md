@@ -15,6 +15,33 @@ La aplicación tratará de emparejarte formando grupos de cuatro, una vez formad
 establecerá un chat que permitirá la comunicación para poder ponerse de acuerdo y comprar
 el billete.
 
+Trabajar en una rama
+---
+
+Primer haz un fork a tu cuenta del repositorio. Para descargar el repositorio:
+
+```
+$ git clone
+```
+
+Para cambiar a una rama:
+
+```
+$ git branch <rama>
+```
+
+Para hacer un commit:
+```
+$ git commit -a "Aquí va el commit"
+```
+
+Para hacer un push:
+```
+$ git push
+```
+
+Cuando esté listo el trabajo haces un Pul Request
+
 ---
 
 **ATENCIÓN:** Esta aplicación y su autor no están vinculados de **ninguna forma** con RENFE, es una
