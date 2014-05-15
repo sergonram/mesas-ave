@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ComparteMesa.iml" filepath="$PROJECT_DIR$/ComparteMesa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/compartemesa/compartemesa.iml" filepath="$PROJECT_DIR$/compartemesa/compartemesa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mesas-ave.iml" filepath="$PROJECT_DIR$/mesas-ave.iml" />
     </modules>
   </component>
 </project>
