@@ -1,5 +1,6 @@
 package com.bigomby.compartemesa;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -13,6 +14,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -23,6 +25,8 @@ public class MainActivity extends ActionBarActivity {
     private CharSequence tituloApp;
     private ActionBarDrawerToggle drawerToggle;
     Fragment fragment;
+    String[] info; // Para recibir la información.
+    TextView nombre;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -35,6 +39,7 @@ public class MainActivity extends ActionBarActivity {
         fragmentManager.beginTransaction()
                 .replace(R.id.content_frame, new Home())
                 .commit();
+
 
         tituloSeccion = (String) getTitle();
 
@@ -65,7 +70,7 @@ public class MainActivity extends ActionBarActivity {
                         fragment = new Search();
                         break;
                     case 3:
-                        fragment = new Config();
+                        lanzar(view);
                         break;
                 }
 
@@ -135,5 +140,10 @@ public class MainActivity extends ActionBarActivity {
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         drawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    public void lanzar(View view) {
+        Intent i = new Intent(this, Configuracion.class );
+        startActivity(i);
     }
 }

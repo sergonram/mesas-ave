@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.bigomby.compartemesa.Configuracion"
+            android:label="@string/title_activity_configuracion" >
+        </activity>
     </application>
 
 </manifest>

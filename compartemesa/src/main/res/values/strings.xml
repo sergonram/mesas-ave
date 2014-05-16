@@ -1,0 +1,10 @@
+<resources>
+        <string name="title_activity_configuracion">Configuracion</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cambiarNombreUsr">Cambiar nombre usuario</string>
+    <string name="nombre">Nuevo Nombre</string>
+    <string name="guardar">Guardar Cambios</string>
+
+</resources>
