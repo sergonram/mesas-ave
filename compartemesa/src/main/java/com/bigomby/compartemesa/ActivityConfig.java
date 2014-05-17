@@ -6,14 +6,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Configuracion extends ActionBarActivity {
-
+public class ActivityConfig extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_configuracion);
-
+        setContentView(R.layout.activity_activity_config);
     }
 
 
@@ -21,7 +19,7 @@ public class Configuracion extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.configuracion, menu);
+        getMenuInflater().inflate(R.menu.activity_config, menu);
         return true;
     }
 
