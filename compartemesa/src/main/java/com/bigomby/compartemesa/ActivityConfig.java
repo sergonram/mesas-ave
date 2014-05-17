@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import 	android.view.View;
 
 
 public class ActivityConfig extends ActionBarActivity {
@@ -33,6 +35,14 @@ public class ActivityConfig extends ActionBarActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    //se uliliza en el Onclick del xml para obtener el nuevo nombre
+    public void setname(View view){
+        //variable que obtiene el texto del cuadro de texto
+        EditText nombre=(EditText)findViewById(R.id.Nombreusr);
+        //hacemos el getText
+        String nuevonombre = nombre.getText().toString();
     }
 
 }

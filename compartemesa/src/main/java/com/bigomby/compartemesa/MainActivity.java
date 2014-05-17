@@ -1,5 +1,6 @@
 package com.bigomby.compartemesa;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -25,8 +26,6 @@ public class MainActivity extends ActionBarActivity {
     private CharSequence tituloApp;
     private ActionBarDrawerToggle drawerToggle;
     Fragment fragment;
-    String[] info; // Para recibir la información.
-    TextView nombre;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -143,7 +142,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void lanzar(View view) {
-        Intent i = new Intent(this, Configuracion.class );
-        startActivity(i);
+        Intent intent = new Intent(this, ActivityConfig.class);
+        startActivity(intent);
     }
 }

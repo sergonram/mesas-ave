@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bigomby.compartemesa.Configuracion"
-            android:label="@string/title_activity_configuracion" >
+            android:name="com.bigomby.compartemesa.ActivityConfig"
+            android:label="@string/title_activity_activity_config" >
         </activity>
     </application>
 
